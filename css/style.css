@@ -1,0 +1,31 @@
+/*  GENERAL */
+
+
+
+body {
+    font-family: "lato", sans-serif, serif;
+}
+
+h1, h2, h3, h5, h6 {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section .heading {
+
+}
+#about {
+    padding-top: 100px;
+    background: greenyellow;
+}
+.profile-picture {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+
+/* ABOUT  */
