@@ -1,31 +1,106 @@
-/*  GENERAL */
-
-
-
-body {
-    font-family: "lato", sans-serif, serif;
+/* GENERAL */
+body
+{
+    font-family: 'Lato', sans-serif, serif;
 }
-
-h1, h2, h3, h5, h6 {
+h1,h2,h3,h4,h5,h6
+{
     font-weight: bold;
 }
-
-img {
+img
+{
     max-width: 100%;
     height: auto;
 }
-
-section .heading {
-
+ul,ol
+{
+    list-style:none;
 }
-#about {
+section
+{
+    padding: 45px 0 80px 0;
+}
+section .heading
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+section .heading h2
+{
+    text-transform: uppercase;
+}
+.red-divider
+{
+    width:100px;
+    height: 2px;
+    background: #F4511E;
+    margin: 0 auto;
+}
+
+/* MENU */
+
+
+
+/* ABOUT */
+#about
+{
     padding-top: 100px;
-    background: greenyellow;
+    background: #F4511E;
 }
-.profile-picture {
+.profile-picture
+{
     text-align: center;
     margin: 0 auto;
     float: none;
 }
+#about .heading h1
+{
+    color:#fff;
+    text-transform: uppercase;
+}
+#about .heading h3
+{
+    color:#000;
+}
+.button1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top:  20px;
+    padding: 18px 50px;
+    border-radius: 4px;
+    transition: all 0.4s ease-in;
+}
+.button1:hover
+{
+    background: white;
+    color: #F4511E;
+    text-decoration: none;
+}
 
-/* ABOUT  */
+/* SKILLS */
+#skills
+{
+    background: #fff;
+}
+#skills .heading h2
+{
+    color: #F4511E;
+}
+#skills .progress
+{
+    height: 100%;
+    margin: 30px 20px;
+    background: rgb(238,238,238);
+}
+#skills .progress-bar
+{
+    background: #F4511E;
+}
+#skills .progress h5
+{
+    text-shadow: 2px 2px 2px #000;
+}
