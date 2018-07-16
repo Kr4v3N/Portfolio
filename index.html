@@ -9,16 +9,40 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="css/style.css">
-        <script src="js/script.js"></script>
+        <script src="js/app.js"></script>
     </head>
 
 
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#about">Accueil</a></li>
+                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#experience">Expérience</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#recommandations">Recommandations</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
 
 
         <section id="about" class="container-fluid">
             <div class="col-xs-8 col-md-4 profile-picture">
-                <img src="img/dev.jpg" alt="Fayçal" class="img-circle">
+                <img src="img/tux.png" alt="Fayçal" class="img-circle">
             </div>
             <div class="heading">
                 <h1>Hello, c'est moi Fayçal</h1>
@@ -87,13 +111,13 @@
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h3>Google</h3>
-                                    <h4>Développeur Web Sénior</h4>
+                                    <h4>Développeur logiciel</h4>
                                     <p class="text-muted"><small class="glyphicon glyphicon-time"></small>2013-2015</p>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Ajout de la possibilité d'écouter une traduction dans Google Translate</p>
-                                    <p>Développement de Google Suggest en mode Offline</p>
-                                    <p>Nouveau design du player de Youtube adapté au mobile</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.</p>
 
                                 </div>
                             </div>
@@ -109,8 +133,8 @@
                                     <p class="text-muted"><small class="glyphicon glyphicon-time"></small>2010-2013</p>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Développement du bouton Share pour les applis Web mobile</p>
-                                    <p>Lancement automatique des vidéos en mode mute depuis la Timeline</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.e</p>
+                                    <p>LLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.</p>
 
                                 </div>
                             </div>
@@ -126,8 +150,8 @@
                                     <p class="text-muted"><small class="glyphicon glyphicon-time"></small>2007-2010</p>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Création et Développement du Retweet pour l'appli Web</p>
-                                    <p>Intégration des vidéos sur les applis web mobile</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.</p>
                                 </div>
                             </div>
                         </div>
@@ -136,8 +160,129 @@
             </div>
         </section>
 
+        <section id="education">
+            <div class="container">
+                 <div class="red-divider"></div>
+                <div class="heading">
+                    <h2>Education</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="education-block">
+                            <h5>2002 - 2006</h5>
+                            <span class="glyphicon glyphicon-education"></span>
+                            <h3>École ......</h3>
+                            <h4>Diplôme ....</h4>
+                            <div class="red-divider"></div>
+                            <p>Lorem ipsum consectetur adipiscing elit.</p>
+                            <p>SLorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                     <div class="col-sm-6">
+                         <div class="education-block">
+                            <h5>2007</h5>
+                            <span class="glyphicon glyphicon-education"></span>
+                            <h3>Apprendre ...</h3>
+                            <h4>Formation online "Développeur Web"</h4>
+                            <div class="red-divider"></div>
+                            <p>HTML/CSS, Javascript, JQuery</p>
+                            <p>Responsive Design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section id="portfolio">
+            <div class="container">
+                <div class="white-divider"></div>
+                <div class="heading">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a class="thumbnail" href="http://www.facebook.com" target="_blank">
+                            <img src="img/facebook_share.png" alt="facebook share">
+                        </a>
+                    </div>
+                     <div class="col-sm-4">
+                        <a class="thumbnail" href="http://www.google.com" target="_blank">
+                            <img src="img/google_translate.png" alt="google translate">
+                        </a>
+                    </div>
+                     <div class="col-sm-4">
+                        <a class="thumbnail" href="http://www.twitter.com" target="_blank">
+                            <img src="img/twitter_video.png" alt="twitter video">
+                        </a>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="col-sm-4">
+                        <a class="thumbnail" href="http://www.google.com" target="_blank">
+                            <img src="img/youtube.png" alt="youtube">
+                        </a>
+                    </div>
+                     <div class="col-sm-4">
+                        <a class="thumbnail" href="http://www.twitter.com" target="_blank">
+                            <img src="img/twitter_retweet.png" alt="twitter retweet">
+                        </a>
+                    </div>
+                     <div class="col-sm-4">
+                        <a class="thumbnail" href="http://www.facebook.com" target="_blank">
+                            <img src="img/facebook_video.png" alt="facebook video">
+                        </a>
+                    </div>
+                </div>
 
+            </div>
+        </section>
+
+        <section id="recommandations">
+            <div class="container">
+                <div class="red-divider"></div>
+                <div class="heading">
+                    <h2>Recommandations</h2>
+                </div>
+                <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                         <li data-target="#myCarousel" data-slide-to="1"></li>
+                         <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <h3>"Lorem ipsum dolor sit amet, elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing Quisque sapien.Quisque sapien."</h3>
+                            <h4>Larry Muller</h4>
+                        </div>
+                          <div class="item">
+                            <h3>"Lorem ipsum dolor sit amet, consectetur. Quisque sapien...."</h3>
+                            <h4>Jack Dor, CEO</h4>
+                        </div>
+                          <div class="item">
+                            <h3>"Lorem ipsum dolor sit amet,adipiscing elit. Quisque sapien.!"</h3>
+                            <h4>Mark, CEO</h4>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev" role="button">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next" role="button">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="text-center">
+            <a href="#about">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <a href="https://fafachena.com">
+                <h5>© 2018 fafachena.com</h5>
+            </a>
+        </footer>
     </body>
 
 </html>
