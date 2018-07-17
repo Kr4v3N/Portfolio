@@ -1,12 +1,12 @@
 $(function(){
 
-    $(".navbar a, footer a").on("click", function(event){
+    $(".navbar a, footer a").on("click", function(e){
 
-        event.preventDefault();
+        e.preventDefault();
         var hash = this.hash;
 
-        $("body,html").animate({scrollTop: $(hash).offset().top} , 900 , function(){window.location.hash = hash;})
+        $("body,html").animate({scrollTop: $(hash).offset().top} , 1000 , function(){window.location.hash = hash;});
 
     });
 
-})
+});
