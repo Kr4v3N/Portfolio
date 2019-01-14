@@ -232,7 +232,7 @@ section .heading h2 {
 
 
 /*----------------*\
-     EDUCATION
+     FORMATION
 \*----------------*/
 
 #education {
@@ -298,9 +298,6 @@ section .heading h2 {
 
 }
 #portfolio .thumbnail:hover {
-
-    -moz-box-shadow: 2px 2px 15px 1px #343434;
-    -webkit-box-shadow: 2px 2px 15px 1px #343434;
     -o-box-shadow: 2px 2px 15px 1px #343434;
     box-shadow: 2px 2px 15px 1px #343434;
 }
@@ -336,6 +333,49 @@ section .heading h2 {
     font-style: italic;
 }
 
+/*-----------------*\
+     CONTACT
+\*-----------------*/
+
+#contact {
+    background: #F4511E;
+}
+
+#contact .heading h2
+{
+    color: #fff;
+}
+
+#contact-form
+{
+    font-size: 20px;
+    color: #fff;
+}
+.form-control
+{
+    height: 50px;
+    font-size: 18px;
+}
+#contact-form input[type=submit]
+{
+    margin: 40px auto 0px;
+    display: block;
+}
+.comments
+{
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    height: 25px
+}
+#contact-form .thank-you
+{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
 
 /*----------------*\
        FOOTER
@@ -358,8 +398,6 @@ footer h5 {
     color: #fff;
     font-weight: normal;
 }
-
-
 
 
 /*-----------------------------*\
