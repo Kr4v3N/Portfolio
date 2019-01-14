@@ -37,6 +37,23 @@ section .heading h2 {
     background: #fff;
     margin: 0 auto;
 }
+.button1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top:  20px;
+    padding: 18px 50px;
+    border-radius: 4px;
+    transition: all 0.4s ease-in;
+    background: transparent;
+}
+.button1:hover {
+    background: white;
+    color: #F4511E;
+    text-decoration: none;
+}
 
 
 /*-------------*\
@@ -72,7 +89,6 @@ section .heading h2 {
     background-color: #fff !important;
 }
 
-
 /*-----------*\
      ABOUT
 \*-----------*/
@@ -93,23 +109,6 @@ section .heading h2 {
 #about .heading h3 {
     color:#000;
 }
-.button1 {
-    font-weight: bold;
-    text-transform: uppercase;
-    color: white;
-    border: 1px solid white;
-    display: inline-block;
-    margin-top:  20px;
-    padding: 18px 50px;
-    border-radius: 4px;
-    transition: all 0.4s ease-in;
-}
-.button1:hover {
-    background: white;
-    color: #F4511E;
-    text-decoration: none;
-}
-
 
 /*------------*\
      SKILLS
