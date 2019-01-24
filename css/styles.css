@@ -630,17 +630,6 @@ footer h5 {
     }
 }
 
-/*pagination */
-.container1 {
-    /*margin-top: 20px;*/
-    margin:20px 0;
 
-}
-.page {
-    display: none;
-}
-.page-active {
-    display: block;
-}
 
 
