@@ -564,6 +564,12 @@ footer h5 {
     font-weight: normal;
 }
 
+ul, li{
+    margin-left:0;
+    padding-left:0;
+    text-align: left;
+}
+
 
 /*-----------------------------*\
         MEDIA QUERIES
