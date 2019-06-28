@@ -94,7 +94,7 @@ section .heading h2 {
 
 #about {
     padding-top: 100px;
-    background: #F4511E;
+    background: rgb(33, 37, 41);;
 }
 .profile-picture {
     text-align: center;
@@ -125,7 +125,7 @@ section .heading h2 {
     background: rgb(238,238,238);
 }
 #skills .progress-bar {
-    background: #F4511E;
+    background: rgb(33, 37, 41);;
 }
 #skills .progress h5 {
     text-shadow: 2px 2px 2px #000;
@@ -137,7 +137,7 @@ section .heading h2 {
 \*-----------------*/
 
 #experience {
-    background: #F4511E;
+    background: rgb(33, 37, 41);;
 }
 #experience .heading h2 {
     color: white;
@@ -277,7 +277,7 @@ section .heading h2 {
 \*----------------*/
 
 #portfolio {
-    background: #F4511E;
+    background: rgb(33, 37, 41);;
 }
 #portfolio .heading h2 {
     color: #fff;
@@ -501,7 +501,7 @@ section .heading h2 {
 \*-----------------*/
 
 #contact {
-    background: #F4511E;
+    background: rgb(33, 37, 41);;
 }
 
 #contact .heading h2
