@@ -7,9 +7,9 @@ $(function(){
     });
 
     $('#contact-form').submit(function(e) {
-    e.preventDefault();
-    $('.comments').empty();
-    var postdata = $('#contact-form').serialize();
+        e.preventDefault();
+        $('.comments').empty();
+        let postdata = $('#contact-form').serialize();
 
         $.ajax({
             type: 'POST',

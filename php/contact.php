@@ -1,6 +1,16 @@
 <?php
 
-    $array = array("firstname" => "", "name" => "", "email" => "", "phone" => "", "message" => "", "firstnameError" => "", "nameError" => "", "emailError" => "", "phoneError" => "", "messageError" => "", "isSuccess" => false);
+    $array = array("firstname" => "",
+        "name" => "",
+        "email" => "",
+        "phone" => "",
+        "message" => "",
+        "firstnameError" => "",
+        "nameError" => "",
+        "emailError" => "",
+        "phoneError" => "",
+        "messageError" => "",
+        "isSuccess" => false);
     $emailTo = "chena.faycal@gmail.com";
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") 
@@ -88,7 +98,6 @@
       $data = htmlspecialchars($data);
       return $data;
     }
- 
-?>
+
 
 
