@@ -1,4 +1,5 @@
-$(function(){
+$(function()
+{
 
     $(".navbar a, footer a").on("click", function(e){
         e.preventDefault();
