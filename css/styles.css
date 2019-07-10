@@ -571,7 +571,6 @@ footer h5 {
         MEDIA QUERIES
 \*-----------------------------*/
 
-
 /* Si la fenêtre du navigateur est de 600px ou moins. */
 @media only screen and (max-width: 600px) {
     .timeline-panel-container-inverted {
