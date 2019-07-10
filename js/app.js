@@ -1,4 +1,5 @@
-$(function(){
+$(function()
+{
 
     $(".navbar a, footer a").on("click", function(e){
         e.preventDefault();
@@ -7,9 +8,9 @@ $(function(){
     });
 
     $('#contact-form').submit(function(e) {
-    e.preventDefault();
-    $('.comments').empty();
-    var postdata = $('#contact-form').serialize();
+        e.preventDefault();
+        $('.comments').empty();
+        let postdata = $('#contact-form').serialize();
 
         $.ajax({
             type: 'POST',
