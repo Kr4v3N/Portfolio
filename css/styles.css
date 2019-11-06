@@ -25,6 +25,16 @@ section .heading {
 section .heading h2 {
     text-transform: uppercase;
 }
+pre {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+pre code {
+    white-space: pre-wrap;
+}
 .red-divider {
     width:100px;
     height: 2px;
@@ -65,7 +75,7 @@ section .heading h2 {
 \*-------------*/
 
 .navbar {
-    background: #F4511E;
+    background: #393941;
     font-size: 12px;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -448,7 +458,7 @@ section .heading h2 {
 .portfolio-modal .close-modal .lr {
     /* Safari and Chrome */
     z-index: 1051;
-    width: 1px;
+    width: 10px;
     height: 75px;
     margin-left: 35px;
     /* IE 9 */
@@ -460,7 +470,7 @@ section .heading h2 {
 .portfolio-modal .close-modal .lr .rl {
     /* Safari and Chrome */
     z-index: 1052;
-    width: 1px;
+    width: 10px;
     height: 75px;
     /* IE 9 */
     -webkit-transform: rotate(90deg);
@@ -531,9 +541,8 @@ section .heading h2 {
 .comments
 {
     font-style: italic;
-    font-size: 18px;
-    color: #fff;
-    height: 25px
+    color: #f00;
+    height: 25px;
 }
 #contact-form .thank-you
 {
@@ -544,13 +553,15 @@ section .heading h2 {
 }
 
 
+
 /*----------------*\
        FOOTER
 \*----------------*/
 
 footer {
-    background: #F4511E;
-    padding: 20px 0 40px;
+    background: #393941;
+    /*padding: 20px 0 40px;*/
+    padding-bottom: 25px;
 }
 footer .glyphicon {
     font-size:  25px;
@@ -563,7 +574,7 @@ footer .glyphicon:hover {
 }
 footer h5 {
     color: #fff;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 
