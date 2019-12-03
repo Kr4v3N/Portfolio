@@ -102,6 +102,9 @@ pre code {
 .icon-bar {
     background-color: #fff !important;
 }
+img:hover {
+    width: 2%;
+}
 
 /*-----------*\
      ABOUT
@@ -494,7 +497,7 @@ pre code {
     color: #F4511E;
 }
 .carousel-indicators {
-    bottom: 0px;
+    bottom: 0;
 }
 .carousel-indicators li {
     border-color: #F4511E;
@@ -535,7 +538,7 @@ pre code {
 }
 #contact-form input[type=submit]
 {
-    margin: 40px auto 0px;
+    margin: 40px auto 0;
     display: block;
 }
 .comments
