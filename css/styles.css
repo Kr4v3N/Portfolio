@@ -102,7 +102,7 @@ pre code {
 .icon-bar {
     background-color: #fff !important;
 }
-img:hover {
+a img:hover {
     width: 2%;
 }
 
