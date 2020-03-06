@@ -1,9 +1,8 @@
 /*---------------*\
       GENERAL
 \*---------------*/
-
 body {
-    font-family: 'Lato', sans-serif, serif;
+    font-family: 'Work Sans', sans-serif, serif;
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
@@ -38,7 +37,7 @@ pre code {
 .red-divider {
     width:100px;
     height: 2px;
-    background: #F4511E;
+    background: #4CAF50;
     margin: 0 auto;
 }
 .white-divider {
@@ -61,21 +60,23 @@ pre code {
 }
 .button1:hover {
     background: white;
-    color: #F4511E;
+    color: #4CAF50;
+    /*color: #F4511E;*/
     text-decoration: none;
 }
 .img-circle {
-    border: 2px solid #F4511E;
+    max-width: 85%;
 }
 #about{
     padding-bottom: 40px;
 }
+
 /*-------------*\
       MENU
 \*-------------*/
-
 .navbar {
-    background: #393941;
+    background: #111216;
+    /*background: #393941;*/
     font-size: 12px;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -93,7 +94,8 @@ pre code {
     color: #fff !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #F4511E !important;
+    color: #4CAF50 !important;
+    /*color: #F4511E !important;*/
     background-color: #fff !important;
 }
 .navbar-default .navbar-toggle {
@@ -109,10 +111,10 @@ a img:hover {
 /*-----------*\
      ABOUT
 \*-----------*/
-
 #about {
     padding-top: 100px;
-    background: darkslategrey;
+    background: #22252c;
+    /*background: darkslategrey;*/
 }
 .profile-picture {
     text-align: center;
@@ -121,21 +123,21 @@ a img:hover {
 }
 #about .heading h1 {
     color:#fff;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
-#about .heading h3 {
-    color:#000;
+#about .heading h4 {
+    color: #f5f5f5;
 }
 
 /*------------*\
      SKILLS
 \*------------*/
-
 #skills {
     background: #fff;
 }
 #skills .heading h2 {
-    color: darkslategrey;
+    color: #22252c;
+    /*color: darkslategrey;*/
 }
 #skills .progress {
     height: 100%;
@@ -143,7 +145,8 @@ a img:hover {
     background: rgb(238,238,238);
 }
 #skills .progress-bar {
-    background: darkslategrey;
+    background: #4CAF50;
+    /*background: darkslategrey;*/
 }
 #skills .progress h5 {
     text-shadow: 2px 2px 2px #000;
@@ -153,9 +156,9 @@ a img:hover {
 /*-----------------*\
      EXPERIENCE
 \*-----------------*/
-
 #experience {
-    background: darkslategrey;
+    background: #22252c;
+    /*background: darkslategrey;*/
 }
 #experience .heading h2 {
     color: white;
@@ -243,29 +246,29 @@ a img:hover {
     font-size: 20px;
 }
 .timeline-heading h4 {
-    color: #F4511E;
+    color: #4CAF50;
+    /*color: #F4511E;*/
 }
 
 
 /*----------------*\
      FORMATION
 \*----------------*/
-
 #education {
     background: #fff;
 }
 #education .heading h2 {
-    color: darkslategrey;
+    color: #22252c;
+    /*color: darkslategrey;*/
 }
 .education-block {
     width:80%;
-    margin: 0 auto;
     text-align: center;
     padding: 30px;
     background: #ddd;
     border-radius: 10px;
     border: 2px solid #ccc;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
 
 }
 .education-block h5 {
@@ -277,7 +280,8 @@ a img:hover {
     font-size: 40px;
 }
 .education-block h3 {
-    color: #F4511E;
+    color: #4CAF50;
+    /*color: #F4511E;*/
 }
 .education-block h4 {
     margin-bottom: 20px;
@@ -293,9 +297,9 @@ a img:hover {
 /*----------------*\
      PORTFOLIO
 \*----------------*/
-
 #portfolio {
-    background: darkslategrey;
+    background: #22252c;
+    /*background: darkslategrey;*/
 }
 #portfolio .heading h2 {
     color: #fff;
@@ -317,12 +321,10 @@ a img:hover {
     -o-box-shadow: 2px 2px 15px 1px #343434;
     box-shadow: 2px 2px 15px 1px #343434;
 }
-
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
-
 #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
@@ -330,7 +332,6 @@ a img:hover {
     margin: 0 auto;
     cursor: pointer;
 }
-
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
@@ -339,11 +340,9 @@ a img:hover {
     opacity: 0;
     background: rgba(254, 209, 54, 0.9);
 }
-
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
 }
-
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     font-size: 20px;
     position: absolute;
@@ -354,11 +353,9 @@ a img:hover {
     text-align: center;
     color: white;
 }
-
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
 }
-
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
@@ -370,19 +367,16 @@ a img:hover {
     text-align: center;
     background-color: #fff;
 }
-
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
 }
-
 #portfolio .portfolio-item .portfolio-caption p {
     font-size: 16px;
     font-style: italic;
     margin: 0;
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
-
 #portfolio * {
     z-index: 2;
 }
@@ -397,53 +391,42 @@ a img:hover {
     overflow: hidden;
     outline: 0;
 }
-
 .modal-dialog {
     width: 70%;
 }
-
 .portfolio-modal {
     padding-right: 0 !important;
 }
-
 .portfolio-modal .modal-dialog {
     margin: 2rem auto;
     /*max-width: 100vw;*/
 }
-
 .portfolio-modal .modal-content {
     text-align: center;
 }
-
 .portfolio-modal .modal-content h2 {
     font-size: 3em;
     margin-bottom: 15px;
 }
-
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
 }
-
 .portfolio-modal .modal-content p.item-intro {
     font-size: 16px;
     font-style: italic;
     margin: 20px 0 30px;
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
-
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
 }
-
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
 }
-
 .portfolio-modal .modal-content button {
     cursor: pointer;
 }
-
 .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
@@ -453,11 +436,9 @@ a img:hover {
     cursor: pointer;
     background-color: transparent;
 }
-
 .portfolio-modal .close-modal:hover {
     opacity: 0.3;
 }
-
 .portfolio-modal .close-modal .lr {
     /* Safari and Chrome */
     z-index: 1051;
@@ -469,7 +450,6 @@ a img:hover {
     transform: rotate(45deg);
     background-color: #212529;
 }
-
 .portfolio-modal .close-modal .lr .rl {
     /* Safari and Chrome */
     z-index: 1052;
@@ -481,16 +461,15 @@ a img:hover {
     background-color: #212529;
 }
 
-
 /*--------------------*\
      RECOMMANDATIONS
 \*--------------------*/
-
 #recommandations {
     background: #fff;
 }
 #recommandations .heading h2 {
-    color: darkslategrey;
+    color: #22252c;
+    /*color: darkslategrey;*/
 }
 .carousel-control.left, .carousel-control.right {
     background-image: none;
@@ -500,32 +479,33 @@ a img:hover {
     bottom: 0;
 }
 .carousel-indicators li {
-    border-color: #F4511E;
+    border-color: #4CAF50;
+    /*border-color: #F4511E;*/
 }
 .carousel-indicators li.active {
-    background-color: #F4511E;
+    background-color: #4CAF50;
+    /*background-color: #F4511E;*/
 }
 #myCarousel .item {
     padding: 40px 30px;
 }
 #myCarousel .item h3 {
-    color: #F4511E;
+    color: #4CAF50;
+    /*color: #F4511E;*/
     font-style: italic;
 }
 
 /*-----------------*\
      CONTACT
 \*-----------------*/
-
 #contact {
-    background: darkslategrey;
+    background: #22252c;
+    /*background: darkslategrey;*/
 }
-
 #contact .heading h2
 {
     color: #fff;
 }
-
 #contact-form
 {
     font-size: 20px;
@@ -555,14 +535,12 @@ a img:hover {
     font-size: 22px;
 }
 
-
-
 /*----------------*\
        FOOTER
 \*----------------*/
-
 footer {
-    background: #393941;
+    background: #111216;
+    /*background: #393941;*/
     /*padding: 20px 0 40px;*/
     padding-bottom: 25px;
 }
@@ -580,11 +558,9 @@ footer h5 {
     font-weight: bold;
 }
 
-
 /*-----------------------------*\
         MEDIA QUERIES
 \*-----------------------------*/
-
 /* Si la fenêtre du navigateur est de 600px ou moins. */
 @media only screen and (max-width: 600px) {
     .timeline-panel-container-inverted {
@@ -613,7 +589,6 @@ footer h5 {
         padding-left: 40px;
     }
 }
-
 /* Si la fenêtre du navigateur est de 500px ou moins. */
 @media only screen and (max-width: 500px) {
     .timeline-panel-container-inverted {
@@ -623,7 +598,6 @@ footer h5 {
         font-size: 23px;
     }
 }
-
 /* Si la fenêtre du navigateur est de 457px ou moins. */
 @media only screen and (max-width: 457px) {
     .timeline-panel-container-inverted {
@@ -636,8 +610,6 @@ footer h5 {
         font-size: 20px;
     }
 }
-
-
 /* Si la fenêtre du navigateur est de 340px ou moins. */
 @media only screen and (max-width: 340px) {
     .timeline-panel-container-inverted {
