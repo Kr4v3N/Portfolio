@@ -37,7 +37,7 @@ pre code {
 .red-divider {
     width:100px;
     height: 2px;
-    background: #4CAF50;
+    background: #3d763f;
     margin: 0 auto;
 }
 .white-divider {
@@ -60,7 +60,7 @@ pre code {
 }
 .button1:hover {
     background: white;
-    color: #4CAF50;
+    color: #3d763f;
     /*color: #F4511E;*/
     text-decoration: none;
 }
@@ -92,9 +92,10 @@ pre code {
 }
 .navbar li a {
     color: #fff !important;
+    padding: 15px 10px;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #4CAF50 !important;
+    color: #3d763f !important;
     /*color: #F4511E !important;*/
     background-color: #fff !important;
 }
@@ -145,7 +146,7 @@ a img:hover {
     background: rgb(238,238,238);
 }
 #skills .progress-bar {
-    background: #4CAF50;
+    background: #3d763f;
     /*background: darkslategrey;*/
 }
 #skills .progress h5 {
@@ -246,7 +247,7 @@ a img:hover {
     font-size: 20px;
 }
 .timeline-heading h4 {
-    color: #4CAF50;
+    color: #3d763f;
     /*color: #F4511E;*/
 }
 
@@ -280,7 +281,7 @@ a img:hover {
     font-size: 40px;
 }
 .education-block h3 {
-    color: #4CAF50;
+    color: #3d763f;
     /*color: #F4511E;*/
 }
 .education-block h4 {
@@ -483,14 +484,14 @@ a img:hover {
     /*border-color: #F4511E;*/
 }
 .carousel-indicators li.active {
-    background-color: #4CAF50;
+    background-color: #3d763f;
     /*background-color: #F4511E;*/
 }
 #myCarousel .item {
     padding: 40px 30px;
 }
 #myCarousel .item h3 {
-    color: #4CAF50;
+    color: #3d763f;
     /*color: #F4511E;*/
     font-style: italic;
 }
@@ -540,9 +541,7 @@ a img:hover {
 \*----------------*/
 footer {
     background: #111216;
-    /*background: #393941;*/
-    /*padding: 20px 0 40px;*/
-    padding-bottom: 25px;
+    padding: 20px 0 25px;
 }
 footer .glyphicon {
     font-size:  25px;
@@ -551,7 +550,8 @@ footer .glyphicon {
     height: 30px;
 }
 footer .glyphicon:hover {
-    font-size:  30px;
+    font-size: 35px;
+    color: #3d763f;
 }
 footer h5 {
     color: #fff;
