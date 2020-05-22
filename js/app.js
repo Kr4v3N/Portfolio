@@ -21,8 +21,9 @@ $(function()
 
                 if(json.isSuccess)
                 {
-                    $('#contact-form').append("<p class='thank-you alert alert-success'>Votre message a bien été envoyé.)</p>");
+                    $('#contact-form').append("<div id='flash' class='thank-you alert alert-success'>Votre message a bien été envoyé</div>");
                     $('#contact-form')[0].reset();
+                    window.setTimeout('$("#flash").hide(4000)', 6000);
                 }
                 else
                 {
